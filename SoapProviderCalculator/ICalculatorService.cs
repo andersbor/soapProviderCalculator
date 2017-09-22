@@ -10,6 +10,8 @@ namespace SoapProviderCalculator
         [OperationContract]
         double Add(double a, double b);
 
+        double Subtract(double a, double b);
+
         [OperationContract]
         double Sum(double[] numbers);
     }
