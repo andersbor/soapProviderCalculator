@@ -9,7 +9,7 @@ namespace SoapProviderCalculator
             return a + b;
         }
 
-        public double Add(double[] numbers)
+        public double Sum(double[] numbers)
         {
             return numbers.Sum();
         }
