@@ -11,7 +11,7 @@ namespace SoapProviderCalculator.Tests
         public void AddTest()
         {
             double res = _obj.Add(3.2, 4.6);
-            Assert.AreEqual(117.8, res);
+            Assert.AreEqual(7.8, res);
         }
 
         [TestMethod]
