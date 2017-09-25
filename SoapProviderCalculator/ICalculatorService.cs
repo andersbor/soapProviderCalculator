@@ -13,6 +13,9 @@ namespace SoapProviderCalculator
         double Subtract(double a, double b);
 
         [OperationContract]
+        double Product(double a, double b);
+
+        [OperationContract]
         double Sum(double[] numbers);
     }
 

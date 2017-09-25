@@ -14,6 +14,11 @@ namespace SoapProviderCalculator
             return a - b;
         }
 
+        public double Product(double a, double b)
+        {
+            return a * b;
+        }
+
         public double Sum(double[] numbers)
         {
             return numbers.Sum();
